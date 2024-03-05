@@ -6,7 +6,10 @@ import java.io.Serializable;
 
 /**
  * 后端统一返回结果
+ *
  * @param <T>
+ * @author qjy
+ * @date 2024/03/05
  */
 @Data
 public class Result<T> implements Serializable {
